@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SearchFilter = ({ searchQuery, setSearchQuery }) => {
+                     const SearchFilter = ({ searchQuery, setSearchQuery }) => {
   return (
     <input
       type="text"
