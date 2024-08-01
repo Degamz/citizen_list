@@ -1,6 +1,6 @@
-import React from 'react';
-import Citizens from './components/Citizens';
-import './index.css';
+import React from 'react'
+import Citizens from './components/Citizens'
+import './index.css'
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <h1>Citizen List</h1>
       <Citizens />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App

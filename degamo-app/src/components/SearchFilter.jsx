@@ -1,14 +1,14 @@
-import React from 'react';
+import React from 'react'
 
-                     const SearchFilter = ({ searchQuery, setSearchQuery }) => {
+const SearchFilter = ({ searchQuery, setSearchQuery }) => {
   return (
     <input
       type="text"
       placeholder="Search by name"
       value={searchQuery}
-      onChange={(e) => setSearchQuery(e.target.value)}
+      onChange={e => setSearchQuery(e.target.value)}
     />
-  );
-};
+  )
+}
 
-export default SearchFilter;
+export default SearchFilter

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Citizen = ({ citizen, toggleStatus }) => {
   return (
@@ -10,7 +10,7 @@ const Citizen = ({ citizen, toggleStatus }) => {
       <p>Status: {citizen.status}</p>
       <button onClick={() => toggleStatus(citizen.id)}>Toggle Status</button>
     </li>
-  );
-};
+  )
+}
 
-export default Citizen;
+export default Citizen

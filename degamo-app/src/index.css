@@ -14,7 +14,7 @@ body {
 
 h1 {
   margin-bottom: 20px;
-  color: #00B1D2FF;
+  color: #00b1d2ff;
   font-size: 2.5em;
   font-weight: 700;
   letter-spacing: 1px;
@@ -67,7 +67,7 @@ button {
 }
 
 button:hover {
-  background-color: #00B1D2FF;
+  background-color: #00b1d2ff;
   transform: scale(1.05);
 }
 
@@ -83,5 +83,5 @@ input {
 
 input:focus {
   outline: none;
-  border-color: #4CAF50;
+  border-color: #4caf50;
 }
